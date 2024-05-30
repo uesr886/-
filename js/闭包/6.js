@@ -7,7 +7,7 @@ function add(){
         }
         return foo
     }
-    bar=add()
+    const bar=add();
     console.log(bar());//1
     console.log(bar());//2
     console.log(bar());//3

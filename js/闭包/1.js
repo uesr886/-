@@ -25,7 +25,7 @@ var arr=[];
 //     }
 //     foo();
 
-// }     //let+{}块级作用域
+// }     
 
 // arr.forEach(function(item){
 //     item()
