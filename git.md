@@ -6,3 +6,4 @@
 5.git pull origin master   当远程代码和本地代码有冲突时，将远程同步到本地
 
 
+
