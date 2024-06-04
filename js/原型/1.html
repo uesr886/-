@@ -1,0 +1,14 @@
+<script>
+    Person.prototype.say = function() {
+        console.log('Hello');
+    }
+    Person.prototype.age = 18
+function Person() {
+    this.name = '田总'
+}
+let p = new Person();  // 实例对象
+let p2 = new Person();
+p.name = '田田'
+p.say()
+p2.say()
+</script>

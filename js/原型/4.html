@@ -1,0 +1,34 @@
+<script>
+    // let obj = {}
+    // function Person() {
+    // //     var this = {
+    // //         name: 'Tom'
+    // //     }
+    // //     this.__Proto__ = Person.prototype
+    // //     return this
+    //     this.name = 'Tom'
+    // }
+    // let p = new Person()
+
+    //[[Prototype]]   __proto__
+
+    // Person.prototype.lastName = '张'
+
+    function Grand() {
+        this.name = '三'
+    }
+    
+    function Father() {
+        this.age = 40
+    }
+
+    Son.prototype = new Father()
+    Father.prototype = new Grand()
+    function Son() {
+        this.like = 'coding'
+    }
+    let son = new Son()
+    // console.log(son.like);
+    // console.log(son.age);
+    console.log(son.address);
+</script>
