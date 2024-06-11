@@ -23,6 +23,7 @@ let date = new Date()
 // console.log(obj instanceof Object);// true
 // console.log(arr instanceof Array);// true
 // console.log(fn instanceof Function)// true
+// console.log(date instanceof Date)// true
 
 console.log(arr instanceof Array)// true
 console.log(arr instanceof Object)// true
