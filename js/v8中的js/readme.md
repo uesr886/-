@@ -16,3 +16,10 @@
 # 深拷贝
 拷贝后的对象受不原对象的影响
 
+- JSON.parse(JSON.stringify(obj))
+1. 无法识别bigInt类型
+2. 无法拷贝 undefined， function， Symbol
+3. 无法处理循环引用
+
+
+- structedClone()
