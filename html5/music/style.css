@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.music-head {
+    posititon: absolute;
+}
+.nav {
+    position: absolute;
+    font-size: 12px;
+    padding: 10px 0;
+    color: #fff
+}
+.back {
+    position: absolute;
+    left: 30px;
+}
+.title {
+    text-align: center;
+}
+.bg {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(https://oss.tan8.com/yuepuku/154/77396/77396_prev.jpg?v=1666859740);
+    z-index: -1;
+    filter: blur(20px)
+}
+.music-body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 130px;
+    background-color: #fff;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+}
+.logo {
+    width: 256px;
+    height: 283px;
+    overflow: hidden;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: -39px;
+    box-shadow: 0 10px 20px #aaa;
+}
+.logo img {
+    height: 100%;
+}
+.song-detail {
+    text-align: center;
+    margin-top: 36px;
+}
+.name {
+    font-size: 21px;
+    font-weight: bold;
+}
+.author {
+    font-size: 15px;
+    font-weight: bold;
+}
