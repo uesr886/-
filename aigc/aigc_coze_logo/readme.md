@@ -1,0 +1,22 @@
+# AI全栈开发， 24年最火最高薪的方向
+
+- AI全栈
+    - 前端 frontend
+        - bootstrap css 框架 PC 项目可以快速完成页面开发
+        - container row col 页面的布局
+        - html5 表单增强
+            - placeholder 输入框提示 用户体验
+            - required 必填项
+        - 前后端交接的时刻
+            - 前后端分离
+            - 后端 在 localhost:3000/logo logo生成的接口
+            - 前后端数据交换标准是JSON
+                - JSON keyval  适合做数据的
+            - http协议 接口文档
+                - POST 请求 
+                - JSON格式的字符串
+            - 请求行  url method   http 版本
+            - 请求头 Content-Type  cookie token ...
+            - 请求体 
+    - 后端 backend
+    - ai server 
