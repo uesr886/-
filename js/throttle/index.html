@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>节流</title>
+</head>
+<body>
+    <div class="row">
+        <div>
+            没有节流的input <input type="text" id="inputa">
+        </div>
+        <div>
+            有节流的input <input type="text" id="inputb">
+        </div>
+    </div>
+
+    <script>
+        const inputa = document.getElementById('inputa');
+        const inputb = document.getElementById('inputb');
+
+
+        //耗时耗性能任务 => promise 包一下？
+        const ajax = (content) => {
+            console.log(`ajax请求发送：${content}`);
+        }
+
+    </script>
+</body>
+</html>
