@@ -94,3 +94,11 @@ css selector从右到左进行匹配的
 
 - 减少嵌套
     开销高
+
+- todoList 存储
+    - 采用了单例 Storage模块封装
+    - utils/ 工具类
+    - addTodo setItem
+        editTodo setItem
+        deleteTodo setItem
+        componentDidUpdate 只用此处写一次
