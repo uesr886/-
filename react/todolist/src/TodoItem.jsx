@@ -56,7 +56,7 @@ class TodoItem extends Component {
                     <button
                         onClick={() => this.setState({ isEditing: true })}
                         className="todo-item__edit-btn"
-                    >✍</button>
+                    >编辑</button>
                     <button
                         className="todo-item__delete"
                         onClick={() => deleteTodo(index)}>删除</button>

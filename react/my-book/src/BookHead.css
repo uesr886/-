@@ -1,0 +1,29 @@
+
+h2 {
+    color: #111;
+    font: 15px Arial, Helvetica, sans-serif;
+    margin: 0 0 12px 0;
+    line-height: 150%;
+    border-bottom: 1px solid #ddd;
+    font-weight: 700;
+    padding-bottom: 3px;
+    display: flex;
+}
+
+.title {
+    font-size: 18px;
+}
+.tags {
+    color: #9b9b9b;
+    flex: 1;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 2px;
+    display: block;
+    unicode-bidi: isolate;
+}
+.tags .item {
+    cursor: pointer;
+    margin-left: 6px;
+}
